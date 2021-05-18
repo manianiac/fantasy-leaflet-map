@@ -2,6 +2,8 @@
 
 This project allows someone to create a responsive virtual map, with less effort than I went through. Requires NPM, and is built with React, Leaflet, and Game-Icons
 
+There is a running version of this located at https://manianiac.github.io/naidaru-map/
+
 # Setup
 
 1. Included are the tiles from a Dungeons and Dragons campaign setting of mine, but you should replace them with your own tiles. I used https://github.com/commenthol/gdal2tiles-leaflet to turn my \~16000 x \~12000 pixel map into tiles.
@@ -13,6 +15,7 @@ This project allows someone to create a responsive virtual map, with less effort
 # Adding Data
 
 To add a new Location(be it a City, a Cave, or something Unknown), you can add it to the 'data/markers.js' file. There are some dummy locations included as an example of the formatting expected.
+
 To add a new Border, you can do the same with the 'data/borders.js' file. If you edit this file while the local server is running, it should automatically update to show where your borders are being drawn.
 
 # Improvements
